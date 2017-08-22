@@ -1,9 +1,9 @@
 # ProjectObjectC02
 
- /** 
- * void* 可以看作是char＊ 表示这个地址是一个字节的长度 因为char是最小的基本单位 一个字节
- 
- ＊这样使用数组的时候 可以一个字节一个字节的移动游标
+ /**
+  *  void* 可以看作是char＊ 表示这个地址是一个字节的长度 因为char是最小的基本单位 一个字节
+  
+ ＊  这样使用数组的时候 可以一个字节一个字节的移动游标
  **/
  
 int memoryCopy(void* p1,void*p2,int num,int p2len){
